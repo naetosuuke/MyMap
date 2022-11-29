@@ -31,6 +31,16 @@
                                 <rect key="frame" x="0.0" y="93" width="393" height="725"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sV4-Bv-bBr">
+                                <rect key="frame" x="201" y="775.66666666666663" width="176" height="34.333333333333371"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change MapType">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeMapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZH-hw-hJk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -39,6 +49,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BFH-Ds-ZJs" secondAttribute="trailing" id="9uC-zY-16g"/>
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IwV-Os-g0v"/>
                             <constraint firstItem="ceG-Pl-x83" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KFo-u8-h5m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sV4-Bv-bBr" secondAttribute="bottom" constant="8" id="MTJ-nB-Q6w"/>
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PlW-1a-om3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BFH-Ds-ZJs" secondAttribute="trailing" id="QZB-fn-5vb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ceG-Pl-x83" secondAttribute="trailing" id="W2A-uI-6ts"/>
@@ -46,6 +57,7 @@
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f7y-Eb-fo7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ceG-Pl-x83" secondAttribute="bottom" id="qOI-uH-p5r"/>
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qaA-wl-lgi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sV4-Bv-bBr" secondAttribute="trailing" constant="16" id="tCp-Ft-PJP"/>
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yMI-40-6Lp"/>
                             <constraint firstItem="BFH-Ds-ZJs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zN8-bH-ZFy"/>
                         </constraints>
